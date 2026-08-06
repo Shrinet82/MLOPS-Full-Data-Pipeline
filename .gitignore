@@ -1,0 +1,6 @@
+/data
+/dataset
+/sample
+/__pycache__/
+/model.joblib
+fraud-app.tar
