@@ -4,3 +4,11 @@
 /__pycache__/
 /model.joblib
 fraud-app.tar
+
+# Model artifacts (DVC-tracked models are managed via their .dvc pointer files)
+*.joblib
+!*.joblib.dvc
+
+# Python bytecode
+__pycache__/
+*.pyc
